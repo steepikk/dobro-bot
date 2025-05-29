@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: Bot
+
+app:
+  telegram-token: 7782253718:AAEm18SxZfQSR-qrXqaErBT6R-owPHr6hA8
