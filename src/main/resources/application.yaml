@@ -1,6 +1,8 @@
 spring:
   application:
     name: Bot
+  config:
+    import: "optional:env[.env]"
 
 app:
   telegram-token: ${TELEGRAM_TOKEN}
