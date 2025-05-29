@@ -16,6 +16,7 @@ public class TelegramBotListener {
     private final TelegramBot bot;
 
     public TelegramBotListener(BotConfig config) {
+        System.out.println(config.telegramToken());
         this.bot = new TelegramBot(config.telegramToken());
     }
 
